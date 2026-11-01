@@ -1,0 +1,578 @@
+{
+  "surum": 1,
+  "yamalar": [
+    "26.21"
+  ],
+  "sampiyonlar": {
+    "Azir": [
+      {
+        "patch": "26.21",
+        "tarih": "2026-10-20",
+        "mod": "sv",
+        "tur": "buff",
+        "ad": "Azir",
+        "degisiklik": "Mana büyüme oranı seviye başına 40 → 50."
+      }
+    ],
+    "Darius": [
+      {
+        "patch": "26.21",
+        "tarih": "2026-10-20",
+        "mod": "sv",
+        "tur": "buff",
+        "ad": "Darius",
+        "degisiklik": "Q bekleme süresi (5. seviye) 5 → 4 sn."
+      }
+    ],
+    "MissFortune": [
+      {
+        "patch": "26.21",
+        "tarih": "2026-10-20",
+        "mod": "sv",
+        "tur": "buff",
+        "ad": "Miss Fortune",
+        "degisiklik": "E hasarı 70/100/130/160/190 → 90/120/150/180/210; R kritik vuruş hasarı %130 → %145 (ilave kritik hasar oranı +%0,3 → +%0,45)."
+      },
+      {
+        "patch": "26.21",
+        "tarih": "2026-10-20",
+        "mod": "arena",
+        "tur": "buff",
+        "ad": "Miss Fortune",
+        "degisiklik": "Q yetenek gücü oranı %55 → %70; R %35 → %40."
+      }
+    ],
+    "Nunu": [
+      {
+        "patch": "26.21",
+        "tarih": "2026-10-20",
+        "mod": "sv",
+        "tur": "buff",
+        "ad": "Nunu ve Willump",
+        "degisiklik": "R azami hasarı 625/925/1275 → 750/1100/1450."
+      }
+    ],
+    "Orianna": [
+      {
+        "patch": "26.21",
+        "tarih": "2026-10-20",
+        "mod": "sv",
+        "tur": "buff",
+        "ad": "Orianna",
+        "degisiklik": "Q hasarı YG oranı %55 → %60; W hasarı YG oranı %80 → %85."
+      }
+    ],
+    "Ryze": [
+      {
+        "patch": "26.21",
+        "tarih": "2026-10-20",
+        "mod": "sv",
+        "tur": "buff",
+        "ad": "Ryze",
+        "degisiklik": "Q hareket hızı %28-44 → %30-50, akı ilave hasarı %15/40/65/90 → %10/40/70/100; W YG oranı %60 → %70."
+      }
+    ],
+    "Sion": [
+      {
+        "patch": "26.21",
+        "tarih": "2026-10-20",
+        "mod": "sv",
+        "tur": "buff",
+        "ad": "Sion",
+        "degisiklik": "Can büyümesi 87 → 95; R yoğunlaşmanın ilk 3 saniyesindeki hasar artışı güçlendi (+%0-200)."
+      }
+    ],
+    "Taliyah": [
+      {
+        "patch": "26.21",
+        "tarih": "2026-10-20",
+        "mod": "sv",
+        "tur": "buff",
+        "ad": "Taliyah",
+        "degisiklik": "E hasarı 60/105/150/195/240 → 70/115/160/205/250 (+%70 YG); patlama hasarı 25-85 → 30-90."
+      }
+    ],
+    "Velkoz": [
+      {
+        "patch": "26.21",
+        "tarih": "2026-10-20",
+        "mod": "sv",
+        "tur": "buff",
+        "ad": "Vel'Koz",
+        "degisiklik": "Pasif hasar 35-180 (+%60 YG) → 35-205 (+%65 YG)."
+      }
+    ],
+    "XinZhao": [
+      {
+        "patch": "26.21",
+        "tarih": "2026-10-20",
+        "mod": "sv",
+        "tur": "buff",
+        "ad": "Xin Zhao",
+        "degisiklik": "Q ilave SG oranı %40 → %45; E'de her %5 yerine %4 ilave saldırı hızı başına %1 artış."
+      }
+    ],
+    "Zyra": [
+      {
+        "patch": "26.21",
+        "tarih": "2026-10-20",
+        "mod": "sv",
+        "tur": "buff",
+        "ad": "Zyra",
+        "degisiklik": "W tohum bekleme süresi 18/16/14/12/10 → 16/14,5/13/11,5/10 sn."
+      }
+    ],
+    "Caitlyn": [
+      {
+        "patch": "26.21",
+        "tarih": "2026-10-20",
+        "mod": "sv",
+        "tur": "nerf",
+        "ad": "Caitlyn",
+        "degisiklik": "Pasif Tam Kafadan %60-100 → %60-80 SG (kritik oranı başına +%1 → +%0,8); karşılığında Q taban hasarı 50/90/130/170/210 → 50/95/140/185/230."
+      }
+    ],
+    "Jinx": [
+      {
+        "patch": "26.21",
+        "tarih": "2026-10-20",
+        "mod": "sv",
+        "tur": "nerf",
+        "ad": "Jinx",
+        "degisiklik": "Saldırı gücü büyümesi 3,25 → 3; taban can 630 → 610."
+      }
+    ],
+    "LeeSin": [
+      {
+        "patch": "26.21",
+        "tarih": "2026-10-20",
+        "mod": "sv",
+        "tur": "nerf",
+        "ad": "Lee Sin",
+        "degisiklik": "W bekleme süresi 7 → 8 sn; R hasarı 175/400/625 → 150/350/550 (çarpışma hasarı dahil); E artık görünmez rakipleri açığa çıkarmıyor (hata düzeltmesi)."
+      },
+      {
+        "patch": "26.21",
+        "tarih": "2026-10-20",
+        "mod": "arena",
+        "tur": "buff",
+        "ad": "Lee Sin",
+        "degisiklik": "E yetenek gücü oranı 0 → %75."
+      }
+    ],
+    "Nidalee": [
+      {
+        "patch": "26.21",
+        "tarih": "2026-10-20",
+        "mod": "sv",
+        "tur": "nerf",
+        "ad": "Nidalee",
+        "degisiklik": "W hasarı 55-190 → 50-170; E saldırı hızı %30-70 → %20-60."
+      },
+      {
+        "patch": "26.21",
+        "tarih": "2026-10-20",
+        "mod": "arena",
+        "tur": "buff",
+        "ad": "Nidalee",
+        "degisiklik": "W kapan bekleme süresi 14-10 → 8 sn; R puma yeteneklerinin bekleme süresi 6 → 4 sn."
+      }
+    ],
+    "Qiyana": [
+      {
+        "patch": "26.21",
+        "tarih": "2026-10-20",
+        "mod": "sv",
+        "tur": "nerf",
+        "ad": "Qiyana",
+        "degisiklik": "Q hasarı 80/110/140/170/200 → 70/100/130/160/190."
+      }
+    ],
+    "Rammus": [
+      {
+        "patch": "26.21",
+        "tarih": "2026-10-20",
+        "mod": "sv",
+        "tur": "nerf",
+        "ad": "Rammus",
+        "degisiklik": "W ilave zırh 27-47 → 25-45; zırh ve büyü direnci oranı %30-60 → %30-50."
+      }
+    ],
+    "Tristana": [
+      {
+        "patch": "26.21",
+        "tarih": "2026-10-20",
+        "mod": "sv",
+        "tur": "nerf",
+        "ad": "Tristana",
+        "degisiklik": "Q saldırı hızı %60/75/90/105/120 → %40/60/80/100/120."
+      }
+    ],
+    "Viktor": [
+      {
+        "patch": "26.21",
+        "tarih": "2026-10-20",
+        "mod": "sv",
+        "tur": "nerf",
+        "ad": "Viktor",
+        "degisiklik": "Hareket hızı 335 → 330; Q kalkanı 40-140 (+%25 YG) → 30-130 (+%20 YG)."
+      }
+    ],
+    "Yone": [
+      {
+        "patch": "26.21",
+        "tarih": "2026-10-20",
+        "mod": "sv",
+        "tur": "nerf",
+        "ad": "Yone",
+        "degisiklik": "Q hasarı SG oranı %110 → %105."
+      },
+      {
+        "patch": "26.21",
+        "tarih": "2026-10-20",
+        "mod": "arena",
+        "tur": "buff",
+        "ad": "Yone",
+        "degisiklik": "R ilave SG oranı %80 → %100; bekleme 70/60/50 → 60/50/40 sn."
+      }
+    ],
+    "Locke": [
+      {
+        "patch": "26.21",
+        "tarih": "2026-10-20",
+        "mod": "sv",
+        "tur": "ayar",
+        "ad": "Locke",
+        "degisiklik": "Mana cömertliği kısıldı (Q kullanılmayan yük iadesi %20-35 → %10-40, mana büyümesi 70 → 60, W mana bedeli +10); W depoladığı can ve E ışınlanma hasarı arttı."
+      }
+    ],
+    "Varus": [
+      {
+        "patch": "26.21",
+        "tarih": "2026-10-20",
+        "mod": "sv",
+        "tur": "ayar",
+        "ad": "Varus",
+        "degisiklik": "Güç dengesi Q'dan W'ya kaydırıldı: Q asgari hasar oranı 50-230 (+%80 İlave SG), azami 85-391 (+%136 İlave SG); W isabet hasarı 4/13/22/31/40 → 4/10/16/22/28. Yama ortasında pasif ve Q asgari hasarı güçlendirildi."
+      },
+      {
+        "patch": "26.21",
+        "tarih": "2026-10-20",
+        "mod": "arena",
+        "tur": "buff",
+        "ad": "Varus",
+        "degisiklik": "E bekleme 18-10 → 14-6 sn; E'ye %50 yetenek gücü oranı eklendi."
+      }
+    ],
+    "MonkeyKing": [
+      {
+        "patch": "26.21",
+        "tarih": "2026-10-20",
+        "mod": "sv",
+        "tur": "ayar",
+        "ad": "Wukong",
+        "degisiklik": "Can yenilenmesi 3,5 → 5,5 (güçlendi); pasif yük başına zırh 6-10 → 4,5-10 (zayıfladı, ormandaki gücü kısılıyor)."
+      }
+    ],
+    "Taric": [
+      {
+        "patch": "26.21",
+        "tarih": "2026-10-20",
+        "mod": "sv",
+        "tur": "ayar",
+        "ad": "Taric",
+        "degisiklik": "Q ve R artık hedef alınamaz durumdaki takım arkadaşlarında da kullanılabiliyor; E için eski kısıt (Master Yi) sürüyor."
+      }
+    ],
+    "TwistedFate": [
+      {
+        "patch": "26.21",
+        "tarih": "2026-10-20",
+        "mod": "sv",
+        "tur": "ayar",
+        "ad": "Twisted Fate",
+        "degisiklik": "R artık hedef alınamayan birimleri de açığa çıkarıyor."
+      }
+    ],
+    "Mordekaiser": [
+      {
+        "patch": "26.21",
+        "tarih": "2026-10-20",
+        "mod": "classic",
+        "tur": "yeni",
+        "ad": "Mordekaiser",
+        "degisiklik": "2010-2015 yetenek setiyle geri döndü. Yetenekle verdiği hasar zamanla azalan kalkana dönüşüyor; R ile rakibin niteliklerini çalıp ölürse ruhunu hayalet olarak diriltiyor."
+      }
+    ],
+    "Yorick": [
+      {
+        "patch": "26.21",
+        "tarih": "2026-10-20",
+        "mod": "classic",
+        "tur": "yeni",
+        "ad": "Yorick",
+        "degisiklik": "2011-2016 sürümüyle geri döndü. Her yetenekle hortlak çağırıyor, R ile takım arkadaşının kopyasını çıkarıyor."
+      }
+    ],
+    "Hecarim": [
+      {
+        "patch": "26.21",
+        "tarih": "2026-10-20",
+        "mod": "classic",
+        "tur": "yeni",
+        "ad": "Hecarim",
+        "degisiklik": "Hızlı dalış yapan, birimlerin içinden geçen ve sürekli hasar veren klasik haliyle Classic'te."
+      }
+    ],
+    "Lucian": [
+      {
+        "patch": "26.21",
+        "tarih": "2026-10-20",
+        "mod": "classic",
+        "tur": "yeni",
+        "ad": "Lucian",
+        "degisiklik": "2013 sürümüyle geldi: 550 saldırı menzili, E saldırı süresini sıfırlamıyor ve bekleme süresi yalnızca R etkinken alınan şampiyon skorlarıyla yenileniyor."
+      }
+    ],
+    "Aatrox": [
+      {
+        "patch": "26.21",
+        "tarih": "2026-10-20",
+        "mod": "classic",
+        "tur": "buff",
+        "ad": "Aatrox",
+        "degisiklik": "Pasif Kan Kuyusu bekleme süresi 225 sn → 1/6/11/16. seviyelerde 225/200/175/150 sn."
+      }
+    ],
+    "Karma": [
+      {
+        "patch": "26.21",
+        "tarih": "2026-10-20",
+        "mod": "classic",
+        "tur": "buff",
+        "ad": "Karma",
+        "degisiklik": "Q hasarı 70-270 → 85-285, mantra iyileştirmesi 35-135 → 50-150; W taban hasarı 80-305 → 100-300, hareket hızı %10-20 → %15-20."
+      }
+    ],
+    "Kassadin": [
+      {
+        "patch": "26.21",
+        "tarih": "2026-10-20",
+        "mod": "classic",
+        "tur": "buff",
+        "ad": "Kassadin",
+        "degisiklik": "Çıkış öncesi tüm zayıflatmaları geri alındı: Q taban hasarı 60-240 → 80-280, susturma 1-2 → 1-2,6 sn; R yetenek gücü oranı %70 → %80."
+      }
+    ],
+    "Irelia": [
+      {
+        "patch": "26.21",
+        "tarih": "2026-10-20",
+        "mod": "classic",
+        "tur": "nerf",
+        "ad": "Irelia",
+        "degisiklik": "Taban can 546 → 515; can yenilenmesi 8,15 → 6,5; pasifin sıvışma eşyalarıyla birikmesi toplamsaldan çarpımsala döndü."
+      }
+    ],
+    "Belveth": [
+      {
+        "patch": "26.21",
+        "tarih": "2026-10-20",
+        "mod": "arena",
+        "tur": "nerf",
+        "ad": "Bel'Veth",
+        "degisiklik": "Q SG oranı %105 → %95; R yük başına ilave SG oranı %1 → %0,5."
+      }
+    ],
+    "Briar": [
+      {
+        "patch": "26.21",
+        "tarih": "2026-10-20",
+        "mod": "arena",
+        "tur": "ayar",
+        "ad": "Briar",
+        "degisiklik": "Q sersemletme 0,85 → 0,5 sn; E yetenek gücü oranları büyük ölçüde arttı (toplam azami %340 → %500)."
+      }
+    ],
+    "Elise": [
+      {
+        "patch": "26.21",
+        "tarih": "2026-10-20",
+        "mod": "arena",
+        "tur": "ayar",
+        "ad": "Elise",
+        "degisiklik": "E bekleme süresi 8-6 → 10 sn; W yavru örümcek sayısı 2/3/4/5 → 4/6/8/10; eski örümcek hasar güçlendirmesi kaldırıldı."
+      }
+    ],
+    "Ezreal": [
+      {
+        "patch": "26.21",
+        "tarih": "2026-10-20",
+        "mod": "arena",
+        "tur": "buff",
+        "ad": "Ezreal",
+        "degisiklik": "R ilave SG oranı %100 → %150; bekleme süresi 50/40/30 → 40/30/20 sn."
+      }
+    ],
+    "Fiora": [
+      {
+        "patch": "26.21",
+        "tarih": "2026-10-20",
+        "mod": "arena",
+        "tur": "ayar",
+        "ad": "Fiora",
+        "degisiklik": "Pasif oranı 100 ilave SG başına %3 → %2; Q'ya %25 yetenek gücü oranı eklendi."
+      }
+    ],
+    "Galio": [
+      {
+        "patch": "26.21",
+        "tarih": "2026-10-20",
+        "mod": "arena",
+        "tur": "nerf",
+        "ad": "Galio",
+        "degisiklik": "W pasif kalkan can oranı %7,5-15 → %6-10, kışkırtma 1,5 → 1 sn; R havaya savurma 1,5 → 1 sn."
+      }
+    ],
+    "Gangplank": [
+      {
+        "patch": "26.21",
+        "tarih": "2026-10-20",
+        "mod": "arena",
+        "tur": "buff",
+        "ad": "Gangplank",
+        "degisiklik": "W yetenek gücü oranı %90 → %135, bekleme 22-14 → 18-10 sn; R bekleme 130/110/90 → 100/80/60 sn."
+      }
+    ],
+    "Gnar": [
+      {
+        "patch": "26.21",
+        "tarih": "2026-10-20",
+        "mod": "arena",
+        "tur": "ayar",
+        "ad": "Gnar",
+        "degisiklik": "W süresi 4 → 2 sn, hareket hızı 20-80 → 40-160; R yetenek gücü oranı %100 → %150."
+      }
+    ],
+    "Kayn": [
+      {
+        "patch": "26.21",
+        "tarih": "2026-10-20",
+        "mod": "arena",
+        "tur": "buff",
+        "ad": "Kayn",
+        "degisiklik": "Pasif biçim değiştirme ilerleme oranı arttı."
+      }
+    ],
+    "Katarina": [
+      {
+        "patch": "26.21",
+        "tarih": "2026-10-20",
+        "mod": "arena",
+        "tur": "ayar",
+        "ad": "Katarina",
+        "degisiklik": "R isabet etkisi oranı %20/25/30 → sabit %25; hançer başına yetenek gücü oranı %26 → %35."
+      }
+    ],
+    "Malzahar": [
+      {
+        "patch": "26.21",
+        "tarih": "2026-10-20",
+        "mod": "arena",
+        "tur": "ayar",
+        "ad": "Malzahar",
+        "degisiklik": "W artık en fazla 6 Hiçlik Haşeresi yükü biriktiriyor."
+      }
+    ],
+    "Milio": [
+      {
+        "patch": "26.21",
+        "tarih": "2026-10-20",
+        "mod": "arena",
+        "tur": "ayar",
+        "ad": "Milio",
+        "degisiklik": "Q bekleme 8 → 10 sn, yetenek gücü oranı %120 → %200; R bekleme 160/145/130 → 180/150/130 sn."
+      }
+    ],
+    "Morgana": [
+      {
+        "patch": "26.21",
+        "tarih": "2026-10-20",
+        "mod": "arena",
+        "tur": "nerf",
+        "ad": "Morgana",
+        "degisiklik": "Q bekleme 12 → 14 sn; E bekleme 26-16 → 30-20 sn."
+      }
+    ],
+    "Rengar": [
+      {
+        "patch": "26.21",
+        "tarih": "2026-10-20",
+        "mod": "arena",
+        "tur": "buff",
+        "ad": "Rengar",
+        "degisiklik": "W yetenek gücü oranı %95 → %120; güçlendirilmiş W %105 → %120."
+      }
+    ],
+    "Renata": [
+      {
+        "patch": "26.21",
+        "tarih": "2026-10-20",
+        "mod": "arena",
+        "tur": "nerf",
+        "ad": "Renata Glasc",
+        "degisiklik": "R bekleme 150/130/110 → 170/150/130 sn; W bekleme 28-24 → 32-28 sn."
+      }
+    ],
+    "Skarner": [
+      {
+        "patch": "26.21",
+        "tarih": "2026-10-20",
+        "mod": "arena",
+        "tur": "buff",
+        "ad": "Skarner",
+        "degisiklik": "Q ilave SG oranı %90 → %150; W bekleme 10-6 → 8-4 sn, yetenek gücü oranı %80 → %120."
+      }
+    ],
+    "Teemo": [
+      {
+        "patch": "26.21",
+        "tarih": "2026-10-20",
+        "mod": "arena",
+        "tur": "buff",
+        "ad": "Teemo",
+        "degisiklik": "E ilk isabet SG oranı %5 → %10; zamanla hasar SG oranı %10 → %20."
+      }
+    ],
+    "Urgot": [
+      {
+        "patch": "26.21",
+        "tarih": "2026-10-20",
+        "mod": "arena",
+        "tur": "buff",
+        "ad": "Urgot",
+        "degisiklik": "W isabet etkisi verimi %50 → %75."
+      }
+    ],
+    "Yuumi": [
+      {
+        "patch": "26.21",
+        "tarih": "2026-10-20",
+        "mod": "arena",
+        "tur": "nerf",
+        "ad": "Yuumi",
+        "degisiklik": "W iyileştirme ve kalkan gücü %10-25 → %4-8."
+      }
+    ],
+    "Zaahen": [
+      {
+        "patch": "26.21",
+        "tarih": "2026-10-20",
+        "mod": "arena",
+        "tur": "nerf",
+        "ad": "Zaahen",
+        "degisiklik": "Pasif yük başına ilave SG %1-2 → %1."
+      }
+    ]
+  }
+}

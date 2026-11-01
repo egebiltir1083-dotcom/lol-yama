@@ -1,0 +1,14 @@
+{
+  "surum": 1,
+  "guncel": "26.21",
+  "yamalar": [
+    {
+      "patch": "26.21",
+      "tarih": "2026-10-20",
+      "dosya": "patches/26.21.json",
+      "hash": null
+    }
+  ],
+  "guncelleme": "2026-11-01T18:27:43.822Z",
+  "son_kontrol": "2026-11-01T18:27:43.822Z"
+}

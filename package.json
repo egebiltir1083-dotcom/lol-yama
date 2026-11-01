@@ -1,0 +1,12 @@
+{
+  "name": "lol-yama-data",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "LoL Yama Asistanı için otomatik yama notu verisi (GitHub Actions ile güncellenir)",
+  "scripts": {
+    "guncelle": "node scripts/update.mjs",
+    "test": "node --test test/*.test.mjs"
+  },
+  "engines": { "node": ">=20" }
+}

@@ -1,0 +1,571 @@
+{
+  "patch": "26.21",
+  "tarih": "2026-10-20",
+  "ozet": "True Damage prestij kostümleri, yeni ARAM Şamata (Assolistler), Classic'e 4 yeni şampiyon ve Arena dengesi. Sihirdar Vadisi'nde nişancı ve ormancı zayıflatmaları, Kibir ile Açgözlü Çizmeleri nerf.",
+  "kaynak": "https://www.leagueoflegends.com/tr-tr/news/game-updates/league-of-legends-patch-26-21-notes/",
+  "yama_ortasi": [
+    "22 Ekim: Varus'un Q yeteneğindeki hata düzeltildi; pasif ilave SG/YG %10 SH başına 1,1 → 1,4, Q asgari hasarı 50-230 → 50-250."
+  ],
+  "sistem": [
+    "Tekrar indirme sınırı: saatte 10 (arkadaşların ve diğer oyuncuların tekrarlarını indirmeye devam edebilirsin)",
+    "İhtişamlı Mağaza rotasyon zamanlamaları değişiyor; 26.22'de kişiye özel içerik geliyor",
+    "AMD için en düşük sistem gereksinimi bir sürüm arttı (SSE 4.2)"
+  ],
+  "sv": {
+    "sampiyonlar": [
+      {
+        "id": "Azir",
+        "ad": "Azir",
+        "tur": "buff",
+        "degisiklik": "Mana büyüme oranı seviye başına 40 → 50."
+      },
+      {
+        "id": "Darius",
+        "ad": "Darius",
+        "tur": "buff",
+        "degisiklik": "Q bekleme süresi (5. seviye) 5 → 4 sn."
+      },
+      {
+        "id": "MissFortune",
+        "ad": "Miss Fortune",
+        "tur": "buff",
+        "degisiklik": "E hasarı 70/100/130/160/190 → 90/120/150/180/210; R kritik vuruş hasarı %130 → %145 (ilave kritik hasar oranı +%0,3 → +%0,45)."
+      },
+      {
+        "id": "Nunu",
+        "ad": "Nunu ve Willump",
+        "tur": "buff",
+        "degisiklik": "R azami hasarı 625/925/1275 → 750/1100/1450."
+      },
+      {
+        "id": "Orianna",
+        "ad": "Orianna",
+        "tur": "buff",
+        "degisiklik": "Q hasarı YG oranı %55 → %60; W hasarı YG oranı %80 → %85."
+      },
+      {
+        "id": "Ryze",
+        "ad": "Ryze",
+        "tur": "buff",
+        "degisiklik": "Q hareket hızı %28-44 → %30-50, akı ilave hasarı %15/40/65/90 → %10/40/70/100; W YG oranı %60 → %70."
+      },
+      {
+        "id": "Sion",
+        "ad": "Sion",
+        "tur": "buff",
+        "degisiklik": "Can büyümesi 87 → 95; R yoğunlaşmanın ilk 3 saniyesindeki hasar artışı güçlendi (+%0-200)."
+      },
+      {
+        "id": "Taliyah",
+        "ad": "Taliyah",
+        "tur": "buff",
+        "degisiklik": "E hasarı 60/105/150/195/240 → 70/115/160/205/250 (+%70 YG); patlama hasarı 25-85 → 30-90."
+      },
+      {
+        "id": "Velkoz",
+        "ad": "Vel'Koz",
+        "tur": "buff",
+        "degisiklik": "Pasif hasar 35-180 (+%60 YG) → 35-205 (+%65 YG)."
+      },
+      {
+        "id": "XinZhao",
+        "ad": "Xin Zhao",
+        "tur": "buff",
+        "degisiklik": "Q ilave SG oranı %40 → %45; E'de her %5 yerine %4 ilave saldırı hızı başına %1 artış."
+      },
+      {
+        "id": "Zyra",
+        "ad": "Zyra",
+        "tur": "buff",
+        "degisiklik": "W tohum bekleme süresi 18/16/14/12/10 → 16/14,5/13/11,5/10 sn."
+      },
+      {
+        "id": "Caitlyn",
+        "ad": "Caitlyn",
+        "tur": "nerf",
+        "degisiklik": "Pasif Tam Kafadan %60-100 → %60-80 SG (kritik oranı başına +%1 → +%0,8); karşılığında Q taban hasarı 50/90/130/170/210 → 50/95/140/185/230."
+      },
+      {
+        "id": "Jinx",
+        "ad": "Jinx",
+        "tur": "nerf",
+        "degisiklik": "Saldırı gücü büyümesi 3,25 → 3; taban can 630 → 610."
+      },
+      {
+        "id": "LeeSin",
+        "ad": "Lee Sin",
+        "tur": "nerf",
+        "degisiklik": "W bekleme süresi 7 → 8 sn; R hasarı 175/400/625 → 150/350/550 (çarpışma hasarı dahil); E artık görünmez rakipleri açığa çıkarmıyor (hata düzeltmesi)."
+      },
+      {
+        "id": "Nidalee",
+        "ad": "Nidalee",
+        "tur": "nerf",
+        "degisiklik": "W hasarı 55-190 → 50-170; E saldırı hızı %30-70 → %20-60."
+      },
+      {
+        "id": "Qiyana",
+        "ad": "Qiyana",
+        "tur": "nerf",
+        "degisiklik": "Q hasarı 80/110/140/170/200 → 70/100/130/160/190."
+      },
+      {
+        "id": "Rammus",
+        "ad": "Rammus",
+        "tur": "nerf",
+        "degisiklik": "W ilave zırh 27-47 → 25-45; zırh ve büyü direnci oranı %30-60 → %30-50."
+      },
+      {
+        "id": "Tristana",
+        "ad": "Tristana",
+        "tur": "nerf",
+        "degisiklik": "Q saldırı hızı %60/75/90/105/120 → %40/60/80/100/120."
+      },
+      {
+        "id": "Viktor",
+        "ad": "Viktor",
+        "tur": "nerf",
+        "degisiklik": "Hareket hızı 335 → 330; Q kalkanı 40-140 (+%25 YG) → 30-130 (+%20 YG)."
+      },
+      {
+        "id": "Yone",
+        "ad": "Yone",
+        "tur": "nerf",
+        "degisiklik": "Q hasarı SG oranı %110 → %105."
+      },
+      {
+        "id": "Locke",
+        "ad": "Locke",
+        "tur": "ayar",
+        "degisiklik": "Mana cömertliği kısıldı (Q kullanılmayan yük iadesi %20-35 → %10-40, mana büyümesi 70 → 60, W mana bedeli +10); W depoladığı can ve E ışınlanma hasarı arttı."
+      },
+      {
+        "id": "Varus",
+        "ad": "Varus",
+        "tur": "ayar",
+        "degisiklik": "Güç dengesi Q'dan W'ya kaydırıldı: Q asgari hasar oranı 50-230 (+%80 İlave SG), azami 85-391 (+%136 İlave SG); W isabet hasarı 4/13/22/31/40 → 4/10/16/22/28. Yama ortasında pasif ve Q asgari hasarı güçlendirildi."
+      },
+      {
+        "id": "MonkeyKing",
+        "ad": "Wukong",
+        "tur": "ayar",
+        "degisiklik": "Can yenilenmesi 3,5 → 5,5 (güçlendi); pasif yük başına zırh 6-10 → 4,5-10 (zayıfladı, ormandaki gücü kısılıyor)."
+      },
+      {
+        "id": "Taric",
+        "ad": "Taric",
+        "tur": "ayar",
+        "degisiklik": "Q ve R artık hedef alınamaz durumdaki takım arkadaşlarında da kullanılabiliyor; E için eski kısıt (Master Yi) sürüyor."
+      },
+      {
+        "id": "TwistedFate",
+        "ad": "Twisted Fate",
+        "tur": "ayar",
+        "degisiklik": "R artık hedef alınamayan birimleri de açığa çıkarıyor."
+      }
+    ],
+    "esyalar": [
+      {
+        "ad": "Hisaryıkan",
+        "tur": "nerf",
+        "degisiklik": "Zırh deşme 22 → 18; planlı hücum hasarı 50/25 → 40/20; sabotaj süresi 90 sn → sonsuz."
+      },
+      {
+        "ad": "Açgözlü Çizmeleri",
+        "tur": "nerf",
+        "degisiklik": "Toplam bedel 1000 → 1100 altın."
+      },
+      {
+        "ad": "Kibir",
+        "tur": "ayar",
+        "degisiklik": "Yakın dövüşe güçlendirme (taban ilave SG 12 → 15), menzillilere zayıflatma (12 → 10); yük başına SG 3 → 3 yakın / 2 menzilli."
+      },
+      {
+        "ad": "Şafağın Özü",
+        "tur": "buff",
+        "degisiklik": "%100 taban mana yenilenmesi başına yetenek gücü 10 → 15."
+      }
+    ]
+  },
+  "aram_samata": {
+    "ozet": "Yeni ARAM Şamata: her oyunda bir Assolist performansı kuralları değiştiriyor (K/DA, HEARTSTEEL, True Damage, Pentakill, Uzayın Ritmi, Tatlı Pastane, Grup Vızvız, Komut Satırı ve daha fazlası). Süperstar dereceleri ve görevlerle eklenti, ifade ve turuncu öz kazanılıyor.",
+    "not": "Kasap Köprüsü ve Koeshin Geçidi bu yamada Şamata'da kapalı, sonraki yamada dönüyor.",
+    "yeni_eklentiler": [
+      "Mavi Bariyer",
+      "Ruh Enerjisi",
+      "Meyveleştir",
+      "Boğulmuşun Nefesi",
+      "Sanatçılara Dokunma!",
+      "Zombeyin",
+      "Yalnız Savaşçı",
+      "Mana Yoksa Problem Yok",
+      "Ses Bariyeri",
+      "Ulti Yinelemesi",
+      "Sihirli Aksiyom",
+      "Zırhlı Darbe",
+      "ARILAR!!!",
+      "Zattıri Zort",
+      "KIZIL KOBALT",
+      "Çifte Tempo",
+      "Büyüleyici Kelebekler",
+      "Jinx'lendin",
+      "Bu Taç Ağır",
+      "Mücevherli Bileklik",
+      "Geri Tepme",
+      "Kurtuluş",
+      "Öz Büyüsü",
+      "Hâlâ Buradayım",
+      "İndir İndir İndir Onları",
+      "Güm ve Bas",
+      "Gıdık Gıdık",
+      "Geliştir: Yıldırım Asası",
+      "Kaderin Silahı",
+      "Prizmatik Big Shot",
+      "Sıçrayan Arılar",
+      "Grup Kucaklaşması",
+      "Yık Geç",
+      "Üçüncü Vuruşun Acısı",
+      "Ölüm Dansı"
+    ],
+    "kaldirilan_eklentiler": [
+      "Yanıcı Faiz",
+      "Kritik Kullanım",
+      "Kritik Atış",
+      "Boyut Kayması",
+      "Düşen Ayı",
+      "Çifte",
+      "Seri Atış",
+      "Çalıya Saklan",
+      "Talihli",
+      "İyileştirmemiz",
+      "Poro Sürüsü",
+      "Ruhani Arındırma",
+      "Ulti Botu"
+    ]
+  },
+  "classic": {
+    "not": "Classic ocakta rotasyondan çıkıyor; 26.22 ve 26.23'te birkaç şampiyon daha eklenecek.",
+    "sampiyonlar": [
+      {
+        "id": "Mordekaiser",
+        "ad": "Mordekaiser",
+        "tur": "yeni",
+        "degisiklik": "2010-2015 yetenek setiyle geri döndü. Yetenekle verdiği hasar zamanla azalan kalkana dönüşüyor; R ile rakibin niteliklerini çalıp ölürse ruhunu hayalet olarak diriltiyor."
+      },
+      {
+        "id": "Yorick",
+        "ad": "Yorick",
+        "tur": "yeni",
+        "degisiklik": "2011-2016 sürümüyle geri döndü. Her yetenekle hortlak çağırıyor, R ile takım arkadaşının kopyasını çıkarıyor."
+      },
+      {
+        "id": "Hecarim",
+        "ad": "Hecarim",
+        "tur": "yeni",
+        "degisiklik": "Hızlı dalış yapan, birimlerin içinden geçen ve sürekli hasar veren klasik haliyle Classic'te."
+      },
+      {
+        "id": "Lucian",
+        "ad": "Lucian",
+        "tur": "yeni",
+        "degisiklik": "2013 sürümüyle geldi: 550 saldırı menzili, E saldırı süresini sıfırlamıyor ve bekleme süresi yalnızca R etkinken alınan şampiyon skorlarıyla yenileniyor."
+      },
+      {
+        "id": "Aatrox",
+        "ad": "Aatrox",
+        "tur": "buff",
+        "degisiklik": "Pasif Kan Kuyusu bekleme süresi 225 sn → 1/6/11/16. seviyelerde 225/200/175/150 sn."
+      },
+      {
+        "id": "Karma",
+        "ad": "Karma",
+        "tur": "buff",
+        "degisiklik": "Q hasarı 70-270 → 85-285, mantra iyileştirmesi 35-135 → 50-150; W taban hasarı 80-305 → 100-300, hareket hızı %10-20 → %15-20."
+      },
+      {
+        "id": "Kassadin",
+        "ad": "Kassadin",
+        "tur": "buff",
+        "degisiklik": "Çıkış öncesi tüm zayıflatmaları geri alındı: Q taban hasarı 60-240 → 80-280, susturma 1-2 → 1-2,6 sn; R yetenek gücü oranı %70 → %80."
+      },
+      {
+        "id": "Irelia",
+        "ad": "Irelia",
+        "tur": "nerf",
+        "degisiklik": "Taban can 546 → 515; can yenilenmesi 8,15 → 6,5; pasifin sıvışma eşyalarıyla birikmesi toplamsaldan çarpımsala döndü."
+      }
+    ],
+    "esyalar": [
+      {
+        "ad": "Atma'nın Mızrağı",
+        "tur": "buff",
+        "degisiklik": "Kritik vuruş ihtimali %15 → %18; azami canın ilave SG'ye dönüşümü %1,5 → %2."
+      }
+    ]
+  },
+  "arena": {
+    "sampiyonlar": [
+      {
+        "id": "Belveth",
+        "ad": "Bel'Veth",
+        "tur": "nerf",
+        "degisiklik": "Q SG oranı %105 → %95; R yük başına ilave SG oranı %1 → %0,5."
+      },
+      {
+        "id": "Briar",
+        "ad": "Briar",
+        "tur": "ayar",
+        "degisiklik": "Q sersemletme 0,85 → 0,5 sn; E yetenek gücü oranları büyük ölçüde arttı (toplam azami %340 → %500)."
+      },
+      {
+        "id": "Elise",
+        "ad": "Elise",
+        "tur": "ayar",
+        "degisiklik": "E bekleme süresi 8-6 → 10 sn; W yavru örümcek sayısı 2/3/4/5 → 4/6/8/10; eski örümcek hasar güçlendirmesi kaldırıldı."
+      },
+      {
+        "id": "Ezreal",
+        "ad": "Ezreal",
+        "tur": "buff",
+        "degisiklik": "R ilave SG oranı %100 → %150; bekleme süresi 50/40/30 → 40/30/20 sn."
+      },
+      {
+        "id": "Fiora",
+        "ad": "Fiora",
+        "tur": "ayar",
+        "degisiklik": "Pasif oranı 100 ilave SG başına %3 → %2; Q'ya %25 yetenek gücü oranı eklendi."
+      },
+      {
+        "id": "Galio",
+        "ad": "Galio",
+        "tur": "nerf",
+        "degisiklik": "W pasif kalkan can oranı %7,5-15 → %6-10, kışkırtma 1,5 → 1 sn; R havaya savurma 1,5 → 1 sn."
+      },
+      {
+        "id": "Gangplank",
+        "ad": "Gangplank",
+        "tur": "buff",
+        "degisiklik": "W yetenek gücü oranı %90 → %135, bekleme 22-14 → 18-10 sn; R bekleme 130/110/90 → 100/80/60 sn."
+      },
+      {
+        "id": "Gnar",
+        "ad": "Gnar",
+        "tur": "ayar",
+        "degisiklik": "W süresi 4 → 2 sn, hareket hızı 20-80 → 40-160; R yetenek gücü oranı %100 → %150."
+      },
+      {
+        "id": "Kayn",
+        "ad": "Kayn",
+        "tur": "buff",
+        "degisiklik": "Pasif biçim değiştirme ilerleme oranı arttı."
+      },
+      {
+        "id": "Katarina",
+        "ad": "Katarina",
+        "tur": "ayar",
+        "degisiklik": "R isabet etkisi oranı %20/25/30 → sabit %25; hançer başına yetenek gücü oranı %26 → %35."
+      },
+      {
+        "id": "LeeSin",
+        "ad": "Lee Sin",
+        "tur": "buff",
+        "degisiklik": "E yetenek gücü oranı 0 → %75."
+      },
+      {
+        "id": "Malzahar",
+        "ad": "Malzahar",
+        "tur": "ayar",
+        "degisiklik": "W artık en fazla 6 Hiçlik Haşeresi yükü biriktiriyor."
+      },
+      {
+        "id": "Milio",
+        "ad": "Milio",
+        "tur": "ayar",
+        "degisiklik": "Q bekleme 8 → 10 sn, yetenek gücü oranı %120 → %200; R bekleme 160/145/130 → 180/150/130 sn."
+      },
+      {
+        "id": "MissFortune",
+        "ad": "Miss Fortune",
+        "tur": "buff",
+        "degisiklik": "Q yetenek gücü oranı %55 → %70; R %35 → %40."
+      },
+      {
+        "id": "Morgana",
+        "ad": "Morgana",
+        "tur": "nerf",
+        "degisiklik": "Q bekleme 12 → 14 sn; E bekleme 26-16 → 30-20 sn."
+      },
+      {
+        "id": "Nidalee",
+        "ad": "Nidalee",
+        "tur": "buff",
+        "degisiklik": "W kapan bekleme süresi 14-10 → 8 sn; R puma yeteneklerinin bekleme süresi 6 → 4 sn."
+      },
+      {
+        "id": "Rengar",
+        "ad": "Rengar",
+        "tur": "buff",
+        "degisiklik": "W yetenek gücü oranı %95 → %120; güçlendirilmiş W %105 → %120."
+      },
+      {
+        "id": "Renata",
+        "ad": "Renata Glasc",
+        "tur": "nerf",
+        "degisiklik": "R bekleme 150/130/110 → 170/150/130 sn; W bekleme 28-24 → 32-28 sn."
+      },
+      {
+        "id": "Skarner",
+        "ad": "Skarner",
+        "tur": "buff",
+        "degisiklik": "Q ilave SG oranı %90 → %150; W bekleme 10-6 → 8-4 sn, yetenek gücü oranı %80 → %120."
+      },
+      {
+        "id": "Teemo",
+        "ad": "Teemo",
+        "tur": "buff",
+        "degisiklik": "E ilk isabet SG oranı %5 → %10; zamanla hasar SG oranı %10 → %20."
+      },
+      {
+        "id": "Urgot",
+        "ad": "Urgot",
+        "tur": "buff",
+        "degisiklik": "W isabet etkisi verimi %50 → %75."
+      },
+      {
+        "id": "Varus",
+        "ad": "Varus",
+        "tur": "buff",
+        "degisiklik": "E bekleme 18-10 → 14-6 sn; E'ye %50 yetenek gücü oranı eklendi."
+      },
+      {
+        "id": "Yone",
+        "ad": "Yone",
+        "tur": "buff",
+        "degisiklik": "R ilave SG oranı %80 → %100; bekleme 70/60/50 → 60/50/40 sn."
+      },
+      {
+        "id": "Yuumi",
+        "ad": "Yuumi",
+        "tur": "nerf",
+        "degisiklik": "W iyileştirme ve kalkan gücü %10-25 → %4-8."
+      },
+      {
+        "id": "Zaahen",
+        "ad": "Zaahen",
+        "tur": "nerf",
+        "degisiklik": "Pasif yük başına ilave SG %1-2 → %1."
+      }
+    ],
+    "esyalar": [
+      {
+        "ad": "Turbo Kimyasal Tankı",
+        "tur": "ayar",
+        "degisiklik": "Yenilenme %4 → azami canın %20'si."
+      },
+      {
+        "ad": "Rüzgârın Hiddeti",
+        "tur": "buff",
+        "degisiklik": "Azami atılma menzili 600 → 900."
+      },
+      {
+        "ad": "Gece Tırpanı",
+        "tur": "buff",
+        "degisiklik": "Bekleme 10 → 8 sn; hareket hızı %40 → %60 (süre 1,5 → 1 sn)."
+      },
+      {
+        "ad": "Serap Kılıcı",
+        "tur": "nerf",
+        "degisiklik": "İade edilen bekleme süresi %20 → %15."
+      },
+      {
+        "ad": "Aytaşı Kılıç",
+        "tur": "ayar",
+        "degisiklik": "Saldırı başına bekleme iadesi 0,5 → 0,3; güçlendirilmiş saldırı sayısı 2 → 3."
+      }
+    ],
+    "eklentiler": [
+      {
+        "ad": "Zekâ Küpü",
+        "tur": "buff",
+        "degisiklik": "Çatışma dışı sayacı 3 → 5 sn."
+      },
+      {
+        "ad": "Rok",
+        "tur": "buff",
+        "degisiklik": "Bekleme 12 → 10 sn."
+      },
+      {
+        "ad": "Renk Akışı",
+        "tur": "buff",
+        "degisiklik": "Bekleme 10 → 8 sn."
+      },
+      {
+        "ad": "Heyulanın Cesareti",
+        "tur": "nerf",
+        "degisiklik": "Bekleme 5 → 6 sn."
+      },
+      {
+        "ad": "Şafakgetiren'in Azmi",
+        "tur": "buff",
+        "degisiklik": "İyileştirme 25/30 → 35/40."
+      },
+      {
+        "ad": "Çifte Silah",
+        "tur": "nerf",
+        "degisiklik": "İsabet etkisi verimi %40/50/60 → %40/45/50."
+      },
+      {
+        "ad": "Çekirge Gibi",
+        "tur": "buff",
+        "degisiklik": "Yükler 2/3 → 4/6."
+      },
+      {
+        "ad": "Haşarı Sürü",
+        "tur": "buff",
+        "degisiklik": "Başlangıçtaki arı sayısı 2/4/6 → 3/6/9."
+      },
+      {
+        "ad": "Seçkin Kuvvetler",
+        "tur": "buff",
+        "degisiklik": "Minyon gücü artışı 40/55 → 55/70."
+      },
+      {
+        "ad": "Matruşka",
+        "tur": "nerf",
+        "degisiklik": "Azami diriltme 1/2/3 → 0/1/2."
+      },
+      {
+        "ad": "Ocak İlahı Ayini",
+        "tur": "buff",
+        "degisiklik": "Eşya nitelik artışı %40 → %60."
+      },
+      {
+        "ad": "Dön ve Kazan",
+        "tur": "buff",
+        "degisiklik": "Hasar artışı %25-35 → %35-45."
+      },
+      {
+        "ad": "İsabet Dehası",
+        "tur": "nerf",
+        "degisiklik": "Taban hasar 175/350/525 → 175/275/375; SG oranı %100 → %50; bekleme 10/8/6 → 12/10/8 sn."
+      }
+    ]
+  },
+  "yeni_skinler": [
+    "Prestij True Damage Know My Name Ekko",
+    "True Damage Know My Name Akali",
+    "True Damage Know My Name Qiyana",
+    "True Damage Know My Name Senna",
+    "True Damage Know My Name Yasuo"
+  ],
+  "hata_duzeltmeleri": [
+    "Zaahen'in Q yeteneği saldırısı sırasında dirilince tamamlanmıyordu.",
+    "Işınlan çalıda kullanılınca odaklanma görsel efekti rakiplere görünüyordu.",
+    "Haşmetli Hydra kullanıldıktan sonra bekleme süresi gösterilmiyordu.",
+    "Zoe, minyonlardan düşen 1000 hasarlık Çarp'ı olması gerekenden erken alabiliyordu.",
+    "Keskin Sağanak, ilk saldırı iptal edilince normal saldırı sıfırlamalarında tetiklenmiyordu.",
+    "Nidalee'nin Q mızrak hasarı azami menzilde büyü kalkanlarını aşıyordu.",
+    "Briar, Kled ve Sion'a karşı oynarken temel kostümlerinin ulti ses efektleri kullanılacak şekilde güncellendi.",
+    "Classic: Rammus Q izi, Doğanın Kudreti simgesi, Quinn Valor Biçimi etiketi, Aatrox model dış hattı, Hırpalayan bekleme birikmesi, Zilean R ve Sivir E hataları giderildi."
+  ]
+}
